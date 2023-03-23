@@ -4,6 +4,6 @@
 //-----------------------------------------------------------------------------
 
 exports.helloWorld = (req, res) => {
-  const message="<font color='blue'>СloudFunction of PTuruz!</font><br><b>App Version 1.1 STG 2</b>";
+  const message="<font color='blue'>СloudFunction of PTuruz!</font><br><b>App Version 1.1 STG </b>";
   res.status(200).send(message);
 };
